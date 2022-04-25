@@ -22,13 +22,10 @@ ARGV.each do |arg|
         else
             result.insert(i, i_arg)
             is_inserted = true
-            puts "process:"
-            puts result
             break
         end
     end
     result << i_arg if !is_inserted
 end
 
-puts "result:"
 puts result
